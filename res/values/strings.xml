@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KLab iPhoroid UI</string>
+
+    <string name="activity_listview">List View</string>
+    <string name="activity_gridview">Grid View</string>
+    <string name="activity_flowview">Flow View</string>
+    <string name="activity_coverflow">Coverflow</string>
+    
+    <!--  -->
+    <string name="dialog_button_yes">OK</string>
+    <string name="dialog_button_no">キャンセル</string>
+
+    <!--  -->
+    <string name="option_menu_refresh_title">Reload</string>
+
+	<string name="error_dialog_title_system">エラー</string>
+	<string name="error_dialog_title_system_body">システムエラーが発生しました</string>
+	
+    <!-- downloadTask -->
+    <string name="dialog_message_loading">Now Loading...</string>
+
+    <!-- ok-->
+    <string name="Ok_button">OK</string>
+    <!-- キャンセル-->
+    <string name="Cancel_button">キャンセル</string>
+    <!-- はい、いいえ-->
+    <string name="Yes_button">はい</string>
+    <string name="No_button">いいえ</string>
+
+    <!-- ネットワーク不達  P-17-->
+    <string name="Network_Error_title">ネットワークエラー</string>
+    <string name="Network_Error_message">ネットワークエラーが発生しました。\n電波状態や無線LANの設定をご確認ください</string>
+
+	<!-- 200以外のHTTPレスポンスが来た場合 P-18-->
+    <string name="Server_Error_title">サーバエラー</string>
+    <string name="Server_Error_message">サーバエラーが発生しました\nエラーコード_%d</string>
+
+    <!-- システムエラー -->
+    <string name="SystemError_title">システムエラー</string>
+    <string name="SystemError_message">システムエラーが発生しました。</string>
+
+    <!-- Terms -->
+    <string name="Terms">利用規約</string>
+
+</resources>

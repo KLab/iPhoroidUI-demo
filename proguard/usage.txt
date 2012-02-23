@@ -1,0 +1,682 @@
+org.klab.avex_sp.CoverFlowImageAdapter:
+    private static final java.lang.String CACHE_KEY_POSTFIX
+org.klab.avex_sp.CustomApplication:
+    public static final boolean isDebug
+    119:119:public int getDisplayWidth()
+    126:126:public int getDisplayHeight()
+org.klab.avex_sp.DialogUtil:
+    52:54:public static void showSystemErrorDialog(android.content.Context,java.lang.Throwable)
+    58:59:public static void showConfirmDialog(android.content.Context,int)
+org.klab.avex_sp.HasImage$AdapterViewOnScrollListener:
+    139:139:public void onScroll(android.widget.AdapterView,int,int,int)
+org.klab.avex_sp.HasImage$Util:
+    private static final int CURRENT_ACTIVITY_ID
+org.klab.avex_sp.IconText:
+    30:31:public void setIconResource(int)
+    38:39:public void setText(java.lang.String)
+org.klab.avex_sp.Info_NewsDetailActivity:
+    public static final java.lang.String INTENT_EXTRA_INFO_ITEM
+org.klab.avex_sp.Info_ScheduleDetailActivity:
+    public static final java.lang.String INTENT_EXTRA_INFO_ITEM
+org.klab.avex_sp.LauncherActivity:
+    private static final java.lang.String TAG
+    public static final java.lang.String EXTRA_MAGICKEY
+    public static final java.lang.String EXTRA_LAUNCHER_KEY
+    public static final java.lang.String EXTRA_LAUNCHER_FROM_REGISTER_PAYMENT_FLOW
+org.klab.avex_sp.LoginRequiredActivity:
+    private static final java.lang.String TAG
+org.klab.avex_sp.MainActivity:
+    public static final java.lang.String INTENT_EXTRA_TAB_INDEX
+    private static final java.lang.String TAG
+org.klab.avex_sp.MixiDialog
+org.klab.avex_sp.MixiDialog$1
+org.klab.avex_sp.MoreContactAndContractFaqDetailActivity:
+    public static final java.lang.String INTENT_EXTRA_SELECTION
+    public static final java.lang.String INTENT_EXTRA_SIZE
+    private int selection
+org.klab.avex_sp.More_GoodsDetailActivity:
+    public static final java.lang.String INTENT_EXTRA_GOODS_ITEM
+org.klab.avex_sp.More_Settings_AccountActivity:
+    public static final java.lang.String INTENT_EXTRA_SERVICE
+org.klab.avex_sp.More_Settings_AccountActivity$SignInTask:
+    private java.lang.String username
+    private java.lang.String password
+org.klab.avex_sp.More_Settings_ChangeProfileActivity:
+    private static final java.lang.String TAG
+    public static final java.lang.String EXTRA_DATA_REGIST_OR_UPDATE_KEY
+org.klab.avex_sp.More_Settings_MemberActivity:
+    private static final java.lang.String TAG
+org.klab.avex_sp.More_Settings_NorikaeCompletedActivity:
+    private static final java.lang.String TAG
+org.klab.avex_sp.More_Settings_WithdrawActivity:
+    74:84:private void showDialog()
+org.klab.avex_sp.More_Settings_WithdrawActivity$1
+org.klab.avex_sp.More_Settings_changepassActivity:
+    private boolean judge
+org.klab.avex_sp.Music_DiscoActivity:
+    public static final java.lang.String INTENT_EXTRA_SELECTION
+org.klab.avex_sp.Music_DiscoCoverFlowActivity:
+    public static final java.lang.String INTENT_EXTRA_SELECTION
+    public static final java.lang.String SAVED_INSTANCE_STATE_SELECTION
+    225:228:private void toList()
+org.klab.avex_sp.Music_DiscoDetailActivity:
+    public static final java.lang.String INTENT_EXTRA_MUSIC_ITEM
+org.klab.avex_sp.Music_DiscoPurchaseActivity:
+    public static final java.lang.String INTENT_EXTRA_MUSIC_DISCOGRAPHY_DETAIL
+org.klab.avex_sp.Music_MovieDetailActivity:
+    public static final java.lang.String INTENT_EXTRA_MUSIC_MOVIE_ITEM
+org.klab.avex_sp.PlayroomDetailActivity:
+    public static final java.lang.String INTENT_EXTRA_SELECTION
+    public static final java.lang.String INTENT_EXTRA_SIZE
+    protected abstract int getLayoutId()
+org.klab.avex_sp.PlayroomPhotoGridAdapter:
+    private static final java.lang.String CACHE_KEY_POSTFIX
+    111:119:protected android.graphics.Bitmap makeSquareImage(android.graphics.Bitmap,int,int)
+org.klab.avex_sp.Preferences:
+    public static final java.lang.String PREFERENCE_APP
+    88:88:public long getDeviceIdUpdatedAt()
+    180:180:public java.util.Date getLastLoginTime()
+    190:190:public boolean savePaymentErrorMessage(java.lang.String)
+    243:249:private synchronized boolean saveFloat(java.lang.String,float)
+    258:259:private synchronized java.util.Date getDate(java.lang.String)
+org.klab.avex_sp.Preferences$Enc:
+    private static final java.lang.String HEX
+    307:307:public static java.lang.String toHex(java.lang.String)
+    311:311:public static java.lang.String fromHex(java.lang.String)
+org.klab.avex_sp.R$anim
+org.klab.avex_sp.R$attr
+org.klab.avex_sp.R$color
+org.klab.avex_sp.R$drawable
+org.klab.avex_sp.R$id
+org.klab.avex_sp.R$layout
+org.klab.avex_sp.R$raw
+org.klab.avex_sp.R$string
+org.klab.avex_sp.R$style
+org.klab.avex_sp.R$styleable:
+    public static final int CircleFlowIndicator_fillColor
+    public static final int CircleFlowIndicator_radius
+    public static final int CircleFlowIndicator_strokeColor
+    public static final int TitleFlowIndicator_footerColor
+    public static final int TitleFlowIndicator_footerLineHeight
+    public static final int TitleFlowIndicator_footerTriangleHeight
+    public static final int TitleFlowIndicator_selectedColor
+    public static final int TitleFlowIndicator_textColor
+    public static final int TitleFlowIndicator_textSize
+    public static final int TitleFlowIndicator_titlePadding
+    public static final int ViewFlow_sidebuffer
+org.klab.avex_sp.Register_PassActivity:
+    private static final java.lang.String TAG
+    private boolean judge
+org.klab.avex_sp.Register_PassAgainActivity:
+    private boolean judge
+org.klab.avex_sp.SeparatedListItem:
+    static final java.lang.String SEPARATOR
+    27:28:public void setSetting(java.lang.String)
+org.klab.avex_sp.SimpleImageDownloadTask:
+    62:71:public final android.graphics.Bitmap downloadSetResult(java.lang.String[])
+    97:121:public static void downloadImageWithoutDialog(android.content.Context,java.lang.String,android.widget.ImageView,android.graphics.drawable.Drawable)
+org.klab.avex_sp.SimpleImageDownloadTask$2
+org.klab.avex_sp.TemporaryPreferences:
+    53:53:public java.util.Date getFirstPurchase()
+    61:61:public java.util.Date getLastPurchase()
+    69:69:public java.util.Date getNextPurchase()
+    77:77:public int getDuration()
+org.klab.avex_sp.TimeOutErrorActivity:
+    public static final java.lang.String INTENT_EXTRA_REDIRECT_ACTIVITY
+    51:51:public java.lang.Class getRedirectActivityClass()
+org.klab.avex_sp.TwitterPostActivity:
+    public static final java.lang.String INTENT_EXTRA_INFO_ITEM
+    public static final int FOR_RESULT_REQUEST_CODE
+org.klab.avex_sp.TwitterSignInActivity$TwitterSignInTask:
+    private java.lang.String username
+    private java.lang.String password
+org.klab.avex_sp.VariableTextSizedListItem:
+    static final java.lang.String SEPARATOR
+    29:30:public void setSetting(java.lang.String)
+    37:38:public void setSize(int)
+org.klab.avex_sp.api.ApiFailedException:
+    private static final long serialVersionUID
+    public static final int RC_UNDEFINED
+    public static final int RC_INVALID_SESSION_KEY
+    public static final int RC_SESSION_TIMEOUT
+    public static final int RC_ONLY_MEMBER_CAN_ACCESS
+    public static final int RC_ONLY_PAID_MEMBER_CAN_ACCESS
+    public static final int RC_ONLY_LONG_TERM_PAID_MEMBER_CAN_ACCESS
+    public static final int RC_INVALID_PAYMENT_TYPE
+    public static final int RC_UNABLE_CONFIRM_VALIDITY_OF_RECEIPT
+    public static final int RC_INVALID_CATEGORY
+    public static final int RC_DUPLICATE_USER_ID
+    public static final int RC_INVALID_USER_ID_LETTER
+    public static final int RC_INVALID_PASSWORD_LETTER
+    public static final int RC_DEVICE_INFO_NOT_PROVIDED
+    public static final int RC_INVALID_MAGICKEY
+    public static final int RC_INVALID_TRANSFER_CARRIER_ID_OR_PASS
+    public static final int RC_INVALID_TEXT_OF_CATEGORY
+    public static final int RC_MAGICKEY_TIMEOUT
+    public static final int RC_MEMBER_NOT_EXIST
+org.klab.avex_sp.api.EmptyImageException:
+    private static final long serialVersionUID
+org.klab.avex_sp.api.MaintenanceException:
+    private static final long serialVersionUID
+org.klab.avex_sp.api.NetworkErrorException:
+    private static final long serialVersionUID
+org.klab.avex_sp.api.SystemErrorException:
+    private static final long serialVersionUID
+org.klab.avex_sp.api.package-info
+org.klab.avex_sp.api.request.ApiRequest:
+    public abstract java.util.Map execute()
+    public abstract java.util.Map execute(java.util.Map)
+org.klab.avex_sp.api.request.BaseApiRequest:
+    81:81:public java.util.Map execute()
+    91:91:public java.util.Map execute(java.util.Map)
+org.klab.avex_sp.api.request.package-info
+org.klab.avex_sp.api.task.ApiRequestTask:
+    private static final java.lang.String TAG
+org.klab.avex_sp.api.task.ApiRequestTaskUtil:
+    public static final java.lang.String TAG
+org.klab.avex_sp.api.task.package-info
+org.klab.avex_sp.dao.ExteranlAppDao:
+    public static final java.lang.String SERVICE_TWITTER
+    public static final java.lang.String SERVICE_FACEBOOK
+    public static final java.lang.String SERVICE_MIXI
+org.klab.avex_sp.dao.FaqItemDao:
+    private static final java.lang.String CATEGORY_FAQ
+org.klab.avex_sp.dao.InfoItemDao:
+    public static final java.lang.String CATEGORY_NEWS
+    public static final java.lang.String CATEGORY_PROFILE
+    public static final java.lang.String CATEGORY_SCHEDULE
+org.klab.avex_sp.dao.Mixi
+org.klab.avex_sp.dao.MusicMovieDao:
+    private static final java.lang.String NS_YT
+    private static final java.lang.String NS_MEDIA
+org.klab.avex_sp.dao.PlayroomItemDao:
+    public static final java.lang.String CATEGORY_MESSAGE
+    public static final java.lang.String CATEGORY_FAVORITE
+    public static final java.lang.String CATEGORY_SPECIAL
+    public static final java.lang.String CATEGORY_STAFF
+org.klab.avex_sp.dao.PlayroomPeepDao:
+    private static final java.lang.String category
+org.klab.avex_sp.dao.PlayroomPhotoDao:
+    73:127:public java.util.List getGenre(org.klab.avex_sp.model.PurchaseStatus)
+org.klab.avex_sp.dao.PurchaseSiteDao:
+    public static final int PURCHASE_SITE_NONE
+org.klab.avex_sp.dao.Twitter:
+    private static final java.lang.String ConsumerKey
+    private static final java.lang.String ConsumerSecret
+org.klab.avex_sp.model.Constants:
+    public static final boolean isProduction
+    private static final java.lang.String PROTOCOL
+    private static final java.lang.String ARTIST
+    private static final java.lang.String STAGING_HTTP_HOST
+    private static final java.lang.String STAGING_HTTPS_HOST
+    public static final java.lang.String STAGING_MAIL_HOST
+    private static final java.lang.String PRODUCTION_HTTP_HOST
+    private static final java.lang.String PRODUCTION_HTTPS_HOST
+    public static final java.lang.String PRODUCTION_MAIL_HOST
+    public static final java.lang.String CHARGE_REGISTER_URL
+    public static final java.lang.String CHARGE_DISSOLVE_URL
+    public static final java.lang.String CHARGE_CONFIRM_URL
+    public static final java.lang.String AMI_ARTIST
+    public static final java.lang.String AMI_RSS_FEED_URL_BASE
+    public static final java.lang.String APP_UPDATE_URL
+    public static final java.lang.String ABOUT_URL
+    public static final java.lang.String CONTACT_URL
+    public static final java.lang.String PRIVACY_POLICY_URL
+    public static final java.lang.String FUN_CLUB_URL
+    public static final java.lang.String KODA_GUMI_URL
+    public static final java.lang.String INVITE_FRIEND_URL
+    public static final java.lang.String GOODS_ITEMS_URL
+    public static final java.lang.String NEWEST_MOVIE_URL
+    public static final java.lang.String PEEP_MAIL_ADDRESS
+    public static final java.lang.String FAQ_MAIL_ADDRESS
+    public static final java.lang.String FEEDBACK_MAIL_ADDRESS
+    public static final java.lang.String YOUTUBE_GDATA_URL
+    public static final java.lang.String TWITTER_TEMPLATE
+    public static final java.lang.String MEMBERSHIP_UPPER_URL
+    public static final java.lang.String MEMBERSHIP_LOWER_URL
+    public static final java.lang.String MEMBERSCARD_FILENAME
+    public static final java.lang.String ABOUT_APP_URL
+    public static final java.lang.String PLAYROOM_DETAIL_URL
+    public static final java.lang.String COMPLIANCE_URL
+    public static final java.lang.String TERMS_URL
+    public static final java.lang.String COPYRIGHT_URL
+    public static final java.lang.String DATE_PATTERN_RFC1123_LIKE
+    public static final java.lang.String DATE_PATTERN_JSTTIME
+    public static final java.lang.String DATE_PATTERN_JSTTIME_SHORT
+    public static final java.lang.String DATE_FORMAT_JAPANESE
+    public static final java.lang.String DATE_FORMAT_UNKNOWN
+    public static final int MAX_SIZE_AT_ONCE
+    public static final long LOGIN_SESSION_EXPIRE_DURATION
+    public static final java.lang.String MAILADDRESS_REGEX
+    public static final java.lang.String TEXTDATA_HTML_START
+    public static final java.lang.String TEXTDATA_HTML_START_1
+    public static final java.lang.String TEXTDATA_HTML_START_2
+    public static final java.lang.String TEXTDATA_HTML_TITLE_END
+    public static final java.lang.String TEXTDATA_HTML_IMAGE_START
+    public static final java.lang.String TEXTDATA_HTML_IMAGE_SCALE
+    public static final java.lang.String TEXTDATA_HTML_IMAGE_END
+    public static final java.lang.String TEXTDATA_HTML_TEXT_START
+    public static final java.lang.String TEXTDATA_HTML_TEXT_END
+    public static final java.lang.String TEXTDATA_HTML_END
+org.klab.avex_sp.model.FaqItem:
+    54:54:public java.lang.String getPublishDate()
+org.klab.avex_sp.model.InfoItem:
+    40:40:public java.lang.String getPublishDate()
+org.klab.avex_sp.model.More_GoodsItemComparator:
+    private static final java.lang.String TAG
+org.klab.avex_sp.model.MusicDiscographyDetail:
+    112:112:public java.lang.String getMobileUrl()
+org.klab.avex_sp.model.MusicMovieItem:
+    53:53:public java.lang.String getVideoid()
+    67:67:public long getDuration()
+org.klab.avex_sp.model.PlayroomPhotoGenre:
+    45:45:public java.lang.String getPublishDate()
+    54:54:public java.lang.String getFormatedPublishDate()
+org.klab.avex_sp.model.PlayroomPhotoImage:
+    38:38:public java.lang.String getPublishDate()
+    47:47:public java.lang.String getFormatedPublishDate()
+    77:77:public java.lang.String getTitle()
+    92:92:public java.lang.String getComment()
+org.klab.avex_sp.model.playroom_Item:
+    53:53:public java.lang.String getPublishDate()
+    103:103:public java.lang.String getBody()
+    107:108:public void setBody(java.lang.String)
+org.klab.avex_sp.net.HttpHelper:
+    private static final java.lang.String TAG
+    private static final int CONNECTION_TIMEOUT
+    private static final int SO_TIMEOUT
+    private static final java.lang.String DEVICE_ID_PARAM_NAME
+    private static final java.lang.String SP_MEMBER_ID_PARAM_NAME
+    93:93:public static org.apache.http.HttpResponse get(java.lang.String)
+    105:105:public static org.apache.http.HttpResponse get(java.lang.String,java.util.Map)
+    120:120:public static org.apache.http.HttpResponse get(java.lang.String,java.lang.String,java.lang.String)
+    168:168:public static org.apache.http.HttpResponse post(java.lang.String)
+    172:172:public static org.apache.http.HttpResponse post(java.lang.String,java.util.Map)
+    176:176:public static org.apache.http.HttpResponse post(java.lang.String,java.lang.String,java.lang.String)
+    228:239:public java.util.Map createParamHash(java.lang.String[])
+org.klab.avex_sp.playroom_favoriteDetailActivity:
+    23:23:protected int getLayoutId()
+org.klab.avex_sp.playroom_membersActivity:
+    private android.widget.TextView numberTextView
+org.klab.avex_sp.playroom_messageDetailActivity:
+    22:22:protected int getLayoutId()
+org.klab.avex_sp.playroom_peepDetailActivity:
+    public static final java.lang.String INTENT_EXTRA_SELECTION
+    public static final java.lang.String INTENT_EXTRA_SIZE
+org.klab.avex_sp.playroom_photoActivity:
+    public static final java.lang.String INTENT_EXTRA_PURCHASE_STATUS
+org.klab.avex_sp.playroom_photoDetailActivity:
+    public static final java.lang.String INTENT_EXTRA_PURCHASE_STATUS
+    public static final java.lang.String INTENT_EXTRA_GENRE
+    public static final java.lang.String INTENT_EXTRA_TAG
+    public static final java.lang.String INTENT_EXTRA_SELECTION
+org.klab.avex_sp.playroom_photoGridActivity:
+    public static final java.lang.String INTENT_EXTRA_PLAYROOM_PHOTO_GENRE
+    public static final java.lang.String INTENT_EXTRA_PURCHASE_STATUS
+    private static final java.lang.String titlePhoto
+    private static final java.lang.String titleViproom
+org.klab.avex_sp.playroom_specialDetailActivity:
+    23:23:protected int getLayoutId()
+org.klab.avex_sp.playroom_staffDetailActivity:
+    22:22:protected int getLayoutId()
+org.klab.avex_sp.util.ActivityUtil:
+    private static final java.lang.String TAG
+    58:58:public static java.lang.String loadAssetsText(android.app.Activity,java.lang.String,java.lang.String)
+org.klab.avex_sp.util.Cache:
+    370:370:public long getCacheHits()
+    374:374:public long getCacheMisses()
+    378:378:public int getMaxCacheSize()
+    382:386:public synchronized void setMaxCacheSize(int)
+    389:389:public long getMaxLifetime()
+    393:394:public void setMaxLifetime(long)
+org.klab.avex_sp.util.Cache$LinkedList:
+    559:563:public org.klab.avex_sp.util.Cache$LinkedListNode getFirst()
+    616:619:public org.klab.avex_sp.util.Cache$LinkedListNode addLast(java.lang.Object)
+org.klab.avex_sp.util.ImageCache:
+    private static final int MaxSize
+    private static final int LeftTime
+    92:98:public static void clear()
+org.klab.avex_sp.util.KeyValue
+org.klab.avex_sp.widget.adpterview.OnScrollListener:
+    public static final int SCROLL_STATE_IDLE
+    public static final int SCROLL_STATE_TOUCH_SCROLL
+    public static final int SCROLL_STATE_FLING
+    public abstract void onScroll(android.widget.AdapterView,int,int,int)
+org.klab.avex_sp.widget.coverflow.CoverFlowGallery:
+    152:152:public int getMaxRotationAngle()
+    161:162:public void setMaxRotationAngle(int)
+    170:170:public int getMaxZoom()
+    179:180:public void setMaxZoom(int)
+org.klab.avex_sp.widget.coverflow.CoverFlowImageAdapterBase:
+    public abstract android.view.View getView(int,android.view.View,android.view.ViewGroup)
+    154:165:protected android.graphics.Bitmap decodeBitmap(int)
+org.klab.avex_sp.widget.fling.FlingView
+org.klab.avex_sp.widget.fling.FlingView$GestureListener
+org.klab.avex_sp.widget.flowview.CircleFlowIndicator
+org.klab.avex_sp.widget.flowview.FlowIndicator:
+    public abstract void setViewFlow(org.klab.avex_sp.widget.flowview.FlowView)
+org.klab.avex_sp.widget.flowview.FlowView:
+    private static final int SNAP_VELOCITY
+    private static final int INVALID_SCREEN
+    private static final int TOUCH_STATE_REST
+    private static final int TOUCH_STATE_SCROLLING
+    private static final int DEFAULT_SIDE_BUFFER
+    119:122:public FlowView(android.content.Context,int)
+    147:147:public int getViewsCount()
+    458:460:public void setFlowIndicator(org.klab.avex_sp.widget.flowview.FlowIndicator)
+org.klab.avex_sp.widget.flowview.TitleFlowIndicator
+org.klab.avex_sp.widget.flowview.TitleProvider
+org.klab.avex_sp.widget.listview.EndlessAdapter:
+    private android.content.Context context
+    protected abstract boolean cacheInBackground()
+    protected abstract void appendCachedData()
+    83:87:public EndlessAdapter(android.content.Context,android.widget.ListAdapter,int,int)
+    175:177:protected boolean onException(android.view.View,java.lang.Exception)
+    221:226:protected android.view.View getPendingView(android.view.ViewGroup)
+    241:241:protected android.content.Context getContext()
+    57:57:static java.util.concurrent.atomic.AtomicBoolean access$0(org.klab.avex_sp.widget.listview.EndlessAdapter)
+    53:53:static android.view.View access$1(org.klab.avex_sp.widget.listview.EndlessAdapter)
+    53:53:static void access$2(org.klab.avex_sp.widget.listview.EndlessAdapter,android.view.View)
+org.klab.avex_sp.widget.listview.EndlessAdapter$AppendTask
+org.klab.avex_sp.widget.listview.PullToRefreshEndlessListView$2:
+    private java.lang.Object result
+    161:161:protected android.view.View getPendingView(android.view.ViewGroup)
+    171:173:protected boolean cacheInBackground()
+    177:178:protected void appendCachedData()
+org.klab.avex_sp.widget.listview.PullToRefreshEndlessListView$DefaultRefreshListener:
+    public static final int PULL_TO_REFRESH
+    236:236:public int sizeOf(java.util.List)
+    1:1:public int sizeOf(java.lang.Object)
+org.klab.avex_sp.widget.listview.PullToRefreshEndlessListView$RefreshListener:
+    public abstract int sizeOf(java.lang.Object)
+org.klab.avex_sp.widget.listview.PullToRefreshListView:
+    private static final int TAP_TO_REFRESH
+    private static final int PULL_TO_REFRESH
+    private static final int RELEASE_TO_REFRESH
+    private static final int REFRESHING
+    private static final int RELEASE_TO_REFRESH_FT
+    private static final java.lang.String TAG
+    212:212:public void setLastUpdated(java.lang.CharSequence)
+    227:239:private void scrollListBy(int,int)
+    549:551:public void onRefreshComplete(java.lang.CharSequence)
+    560:561:public void onRefreshCompleteFT(java.lang.CharSequence)
+twitter4j.AccountSettings:
+    public abstract boolean isSleepTimeEnabled()
+    public abstract java.lang.String getSleepStartTime()
+    public abstract java.lang.String getSleepEndTime()
+    public abstract twitter4j.Location[] getTrendLocations()
+    public abstract boolean isGeoEnabled()
+twitter4j.AccountTotals:
+    public abstract int getUpdates()
+    public abstract int getFollowers()
+    public abstract int getFavorites()
+    public abstract int getFriends()
+twitter4j.Category:
+    public abstract java.lang.String getName()
+    public abstract java.lang.String getSlug()
+    public abstract int getSize()
+twitter4j.ConnectionLifeCycleListener
+twitter4j.DirectMessage:
+    public abstract java.lang.String getText()
+    public abstract long getSenderId()
+    public abstract long getRecipientId()
+    public abstract java.util.Date getCreatedAt()
+    public abstract java.lang.String getSenderScreenName()
+    public abstract java.lang.String getRecipientScreenName()
+    public abstract twitter4j.User getSender()
+    public abstract twitter4j.User getRecipient()
+twitter4j.Friendship:
+    public abstract long getId()
+    public abstract java.lang.String getName()
+    public abstract java.lang.String getScreenName()
+    public abstract boolean isFollowing()
+    public abstract boolean isFollowedBy()
+twitter4j.HashtagEntity:
+    public abstract java.lang.String getText()
+    public abstract int getStart()
+    public abstract int getEnd()
+twitter4j.IDs:
+    public abstract boolean hasPrevious()
+    public abstract long getPreviousCursor()
+    public abstract boolean hasNext()
+    public abstract long getNextCursor()
+twitter4j.Location:
+    public abstract int getWoeid()
+    public abstract java.lang.String getCountryName()
+    public abstract java.lang.String getCountryCode()
+    public abstract java.lang.String getPlaceName()
+    public abstract int getPlaceCode()
+    public abstract java.lang.String getName()
+    public abstract java.lang.String getURL()
+twitter4j.MediaEntity:
+    public abstract long getId()
+    public abstract java.net.URL getMediaURL()
+    public abstract java.net.URL getMediaURLHttps()
+    public abstract java.util.Map getSizes()
+twitter4j.PagableResponseList:
+    public abstract boolean hasPrevious()
+    public abstract long getPreviousCursor()
+    public abstract boolean hasNext()
+    public abstract long getNextCursor()
+twitter4j.Place:
+    public abstract java.lang.String getName()
+    public abstract java.lang.String getStreetAddress()
+    public abstract java.lang.String getCountryCode()
+    public abstract java.lang.String getCountry()
+    public abstract java.lang.String getPlaceType()
+    public abstract java.lang.String getURL()
+    public abstract java.lang.String getFullName()
+    public abstract java.lang.String getBoundingBoxType()
+    public abstract twitter4j.GeoLocation[][] getBoundingBoxCoordinates()
+    public abstract java.lang.String getGeometryType()
+    public abstract twitter4j.GeoLocation[][] getGeometryCoordinates()
+    public abstract twitter4j.Place[] getContainedWithIn()
+twitter4j.RateLimitStatus:
+    public abstract int getRemainingHits()
+    public abstract int getHourlyLimit()
+    public abstract int getResetTimeInSeconds()
+    public abstract java.util.Date getResetTime()
+twitter4j.RelatedResults:
+    public abstract twitter4j.ResponseList getTweetsWithConversation()
+    public abstract twitter4j.ResponseList getTweetsWithReply()
+    public abstract twitter4j.ResponseList getTweetsFromUser()
+twitter4j.Relationship:
+    public abstract boolean isSourceBlockingTarget()
+    public abstract boolean isSourceFollowingTarget()
+    public abstract boolean isTargetFollowingSource()
+    public abstract boolean isSourceFollowedByTarget()
+    public abstract boolean isTargetFollowedBySource()
+    public abstract boolean isSourceNotificationsEnabled()
+twitter4j.ResponseList:
+    public abstract twitter4j.RateLimitStatus getRateLimitStatus()
+    public abstract twitter4j.RateLimitStatus getFeatureSpecificRateLimitStatus()
+twitter4j.SavedSearch:
+    public abstract java.util.Date getCreatedAt()
+    public abstract java.lang.String getQuery()
+    public abstract int getPosition()
+    public abstract java.lang.String getName()
+twitter4j.SimilarPlaces:
+    public abstract java.lang.String getToken()
+twitter4j.Status:
+    public abstract java.util.Date getCreatedAt()
+    public abstract java.lang.String getText()
+    public abstract java.lang.String getSource()
+    public abstract boolean isTruncated()
+    public abstract long getInReplyToStatusId()
+    public abstract long getInReplyToUserId()
+    public abstract java.lang.String getInReplyToScreenName()
+    public abstract twitter4j.GeoLocation getGeoLocation()
+    public abstract twitter4j.Place getPlace()
+    public abstract boolean isFavorited()
+    public abstract twitter4j.User getUser()
+    public abstract boolean isRetweet()
+    public abstract twitter4j.Status getRetweetedStatus()
+    public abstract long[] getContributors()
+    public abstract long getRetweetCount()
+    public abstract boolean isRetweetedByMe()
+    public abstract twitter4j.UserMentionEntity[] getUserMentionEntities()
+    public abstract twitter4j.URLEntity[] getURLEntities()
+    public abstract twitter4j.HashtagEntity[] getHashtagEntities()
+    public abstract twitter4j.Annotations getAnnotations()
+    public abstract twitter4j.MediaEntity[] getMediaEntities()
+twitter4j.StatusDeletionNotice:
+    public abstract long getUserId()
+twitter4j.Trends:
+    public abstract twitter4j.Location getLocation()
+twitter4j.Tweet:
+    public abstract java.lang.String getText()
+    public abstract long getToUserId()
+    public abstract java.lang.String getToUser()
+    public abstract java.lang.String getFromUser()
+    public abstract long getFromUserId()
+    public abstract java.lang.String getIsoLanguageCode()
+    public abstract java.lang.String getSource()
+    public abstract java.lang.String getProfileImageUrl()
+    public abstract java.util.Date getCreatedAt()
+    public abstract twitter4j.GeoLocation getGeoLocation()
+    public abstract java.lang.String getLocation()
+    public abstract twitter4j.Place getPlace()
+    public abstract twitter4j.Annotations getAnnotations()
+twitter4j.TwitterAPIConfiguration:
+    public abstract int getPhotoSizeLimit()
+    public abstract int getShortURLLength()
+    public abstract int getShortURLLengthHttps()
+    public abstract int getCharactersReservedPerMedia()
+    public abstract java.util.Map getPhotoSizes()
+    public abstract java.lang.String[] getNonUsernamePaths()
+    public abstract int getMaxMediaPerUpload()
+twitter4j.TwitterBase
+twitter4j.URLEntity:
+    public abstract java.net.URL getURL()
+    public abstract java.net.URL getExpandedURL()
+    public abstract java.lang.String getDisplayURL()
+    public abstract int getStart()
+    public abstract int getEnd()
+twitter4j.User:
+    public abstract java.lang.String getName()
+    public abstract java.lang.String getLocation()
+    public abstract java.lang.String getDescription()
+    public abstract boolean isContributorsEnabled()
+    public abstract java.net.URL getProfileImageURL()
+    public abstract java.net.URL getProfileImageUrlHttps()
+    public abstract java.net.URL getURL()
+    public abstract boolean isProtected()
+    public abstract int getFollowersCount()
+    public abstract twitter4j.Status getStatus()
+    public abstract java.lang.String getProfileBackgroundColor()
+    public abstract java.lang.String getProfileTextColor()
+    public abstract java.lang.String getProfileLinkColor()
+    public abstract java.lang.String getProfileSidebarFillColor()
+    public abstract java.lang.String getProfileSidebarBorderColor()
+    public abstract boolean isProfileUseBackgroundImage()
+    public abstract boolean isShowAllInlineMedia()
+    public abstract int getFriendsCount()
+    public abstract java.util.Date getCreatedAt()
+    public abstract int getFavouritesCount()
+    public abstract int getUtcOffset()
+    public abstract java.lang.String getTimeZone()
+    public abstract java.lang.String getProfileBackgroundImageUrl()
+    public abstract java.lang.String getProfileBackgroundImageUrlHttps()
+    public abstract boolean isProfileBackgroundTiled()
+    public abstract java.lang.String getLang()
+    public abstract int getStatusesCount()
+    public abstract boolean isGeoEnabled()
+    public abstract boolean isVerified()
+    public abstract boolean isTranslator()
+    public abstract int getListedCount()
+    public abstract boolean isFollowRequestSent()
+twitter4j.UserList:
+    public abstract java.lang.String getName()
+    public abstract java.lang.String getFullName()
+    public abstract java.lang.String getSlug()
+    public abstract java.lang.String getDescription()
+    public abstract int getSubscriberCount()
+    public abstract int getMemberCount()
+    public abstract java.net.URI getURI()
+    public abstract boolean isPublic()
+    public abstract twitter4j.User getUser()
+    public abstract boolean isFollowing()
+twitter4j.UserMentionEntity:
+    public abstract java.lang.String getName()
+    public abstract java.lang.String getScreenName()
+    public abstract long getId()
+    public abstract int getStart()
+    public abstract int getEnd()
+twitter4j.api.AccountMethods
+twitter4j.api.BlockMethods
+twitter4j.api.DirectMessageMethods
+twitter4j.api.FavoriteMethods
+twitter4j.api.FriendsFollowersMethods
+twitter4j.api.FriendshipMethods
+twitter4j.api.GeoMethods
+twitter4j.api.HelpMethods
+twitter4j.api.HelpMethods$Language
+twitter4j.api.LegalResources
+twitter4j.api.ListMembersMethods
+twitter4j.api.ListMethods
+twitter4j.api.ListSubscribersMethods
+twitter4j.api.LocalTrendsMethods
+twitter4j.api.NewTwitterMethods
+twitter4j.api.NotificationMethods
+twitter4j.api.SavedSearchesMethods
+twitter4j.api.SearchMethods
+twitter4j.api.SpamReportingMethods
+twitter4j.api.StatusMethods:
+    public abstract twitter4j.Status showStatus(long)
+    public abstract twitter4j.Status updateStatus(twitter4j.StatusUpdate)
+    public abstract twitter4j.Status destroyStatus(long)
+    public abstract twitter4j.Status retweetStatus(long)
+    public abstract twitter4j.ResponseList getRetweets(long)
+    public abstract twitter4j.ResponseList getRetweetedBy(long)
+    public abstract twitter4j.ResponseList getRetweetedBy(long,twitter4j.Paging)
+    public abstract twitter4j.IDs getRetweetedByIDs(long)
+    public abstract twitter4j.IDs getRetweetedByIDs(long,twitter4j.Paging)
+twitter4j.api.TimelineMethods
+twitter4j.api.TrendsMethods
+twitter4j.api.UserMethods
+twitter4j.auth.AuthorizationConfiguration
+twitter4j.auth.OAuthSupport:
+    public abstract void setOAuthConsumer(java.lang.String,java.lang.String)
+    public abstract twitter4j.auth.RequestToken getOAuthRequestToken()
+twitter4j.conf.Configuration:
+    public abstract java.lang.String getUserAgent()
+    public abstract java.util.Map getRequestHeaders()
+    public abstract java.lang.String getHttpProxyHost()
+    public abstract java.lang.String getHttpProxyUser()
+    public abstract java.lang.String getHttpProxyPassword()
+    public abstract int getHttpProxyPort()
+    public abstract int getHttpConnectionTimeout()
+    public abstract int getHttpReadTimeout()
+    public abstract int getHttpStreamingReadTimeout()
+    public abstract int getHttpRetryCount()
+    public abstract int getHttpRetryIntervalSeconds()
+    public abstract int getHttpMaxTotalConnections()
+    public abstract int getHttpDefaultMaxPerRoute()
+    public abstract java.lang.String getClientVersion()
+    public abstract java.lang.String getClientURL()
+    public abstract java.lang.String getStreamBaseURL()
+    public abstract java.lang.String getUserStreamBaseURL()
+    public abstract java.lang.String getSiteStreamBaseURL()
+    public abstract boolean isUserStreamRepliesAllEnabled()
+    public abstract java.lang.String getMediaProvider()
+    public abstract java.lang.String getMediaProviderAPIKey()
+    public abstract java.util.Properties getMediaProviderParameters()
+twitter4j.conf.ConfigurationFactory:
+    public abstract void dispose()
+twitter4j.internal.async.Dispatcher:
+    public abstract void invokeLater(java.lang.Runnable)
+    public abstract void shutdown()
+twitter4j.internal.http.HttpClientConfiguration:
+    public abstract int getHttpMaxTotalConnections()
+    public abstract int getHttpDefaultMaxPerRoute()
+    public abstract boolean isGZIPEnabled()
+twitter4j.internal.http.HttpResponseCode
+twitter4j.internal.logging.CommonsLoggingLoggerFactory
+twitter4j.internal.logging.Log4JLoggerFactory
+twitter4j.internal.logging.SLF4JLoggerFactory
+twitter4j.internal.util.T4JInternalStringUtil:
+    65:72:public static java.lang.String join(int[])
+twitter4j.management.APIStatisticsMBean:
+    public abstract java.util.Map getMethodLevelSummariesAsString()
+    public abstract java.lang.String getMethodLevelSummary(java.lang.String)
+twitter4j.util.CharacterUtil

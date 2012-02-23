@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="4dp">
+     
+        <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:text="@string/app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textSize="20sp" 
+            android:textColor="#34caff" 
+            android:textStyle="bold">
+        </TextView>
+        <ImageButton
+            android:id="@+id/listViewButton"
+            android:layout_width="28dip"
+            android:layout_height="28dip"
+            android:padding="3dip"
+            android:src="@drawable/list_demo"
+            android:scaleType="fitCenter"
+            android:background="#34caff"/>
+    </LinearLayout>
+    <View xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="wrap_content" 
+          android:background="#34caff" 
+          android:layout_height="2dp" 
+          android:layout_marginBottom="2dp">
+    </View>
+
+    <GridView android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="90dp"
+        android:numColumns="4"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp">
+    </GridView>
+</LinearLayout>
